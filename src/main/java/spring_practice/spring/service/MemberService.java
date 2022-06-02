@@ -8,11 +8,10 @@ import spring_practice.spring.repository.MemoryMemberRepository;
 import java.util.List;
 import java.util.Optional;
 
-@Service
 public class MemberService {
     private MemoryMemberRepository repository;
 
-    MemberService(MemoryMemberRepository repository) {
+    public MemberService(MemoryMemberRepository repository) {
         this.repository = repository;
     }
 
