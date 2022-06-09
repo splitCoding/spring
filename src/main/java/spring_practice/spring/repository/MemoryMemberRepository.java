@@ -5,6 +5,7 @@ import spring_practice.spring.domain.Member;
 
 import java.util.*;
 
+@Repository
 public class MemoryMemberRepository implements MemberRepository {
     static Map<Long, Member> store = new HashMap<>();
     static long sequence = 0;

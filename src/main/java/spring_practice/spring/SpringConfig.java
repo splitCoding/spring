@@ -7,13 +7,13 @@ import spring_practice.spring.service.MemberService;
 
 @Configuration
 public class SpringConfig {
-    @Bean
-    MemberService memberService() {
-        return new MemberService(memoryMemberRepository());
-    }
-
-    @Bean
-    MemoryMemberRepository memoryMemberRepository() {
-        return new MemoryMemberRepository();
-    }
+//    @Bean
+//    MemberService memberService() {
+//        return new MemberService(memoryMemberRepository());
+//    }
+//
+//    @Bean
+//    MemoryMemberRepository memoryMemberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 }
